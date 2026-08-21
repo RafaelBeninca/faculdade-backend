@@ -3,7 +3,6 @@ package org.example;
 
 // Importa a classe Scanner para leitura de dados do teclado
 import java.util.Scanner;
-import java.util.Arrays;
 
 // Declara a classe principal do programa
 public class Main {
