@@ -35,7 +35,8 @@ public class Exercicio1 {
             double nota3 = leitor.nextDouble();
 
             // Armazena a média dos alunos no array de médias
-            medias[i] = (nota1 + nota2 + nota3) / 3;
+            // Utilização de math.round para arredondar os valores para 2 casas decimais
+            medias[i] = Math.round(((nota1 + nota2 + nota3) / 3) * 100.0) / 100.0;
 
             // Limpa o enter para o próximo nome
             leitor.nextLine();
