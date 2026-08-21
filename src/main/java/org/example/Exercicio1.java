@@ -14,6 +14,7 @@ public class Exercicio1 {
         String[] nomes = new String[quantidade];
         double[] medias = new double[quantidade];
 
+        // Limpa o enter para o nome inicial
         leitor.nextLine();
 
         // for loop que percorre cada aluno
@@ -36,7 +37,7 @@ public class Exercicio1 {
             // Armazena a média dos alunos no array de médias
             medias[i] = (nota1 + nota2 + nota3) / 3;
 
-            // Limpa o ENTER para o próximo nome
+            // Limpa o enter para o próximo nome
             leitor.nextLine();
         }
 
